@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Merriweather&family=Roboto:wght@300&display=swap");
+
+.App {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  /* width: 100vw;
+  justify-content: center; */
+  background-color: rgb(37, 35, 35);
+}
+
+.display {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: auto auto;
+  width: 700px;
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 100px;
+  font-size: 80px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.links {
+  height: 50px;
+  width: 250px;
+  margin-left: 15px;
+  font-size: 30px;
+  color: teal;
+  /* border: 2px solid blue; */
+  font-weight: bold;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  border-radius: 20px;
+
+  width: 900px;
+  height: 487.5px;
+  background-color: rgb(57, 145, 130);
+  box-shadow: 3px 3px 5px 6px black;
+  margin-left: 50px;
+  margin-top: 110px;
+  margin-bottom: 120px;
+}
+.grid-item {
+  border: 8px solid rgb(211, 209, 222);
+  border-radius: 20px;
+  background-color: rgb(211, 209, 222);
+
+  margin: 10px;
+  padding: 0.5px;
+  width: 160px;
+  height: 210px;
+  font-size: 80px;
+}
+
+.para {
+  color: rgb(209, 219, 219);
+  text-decoration: none;
+  font-size: 15px;
+}
