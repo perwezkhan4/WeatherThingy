@@ -7,28 +7,28 @@ function App() {
     <div className="App">
       <div className="grid-container">
         <div className="grid-item">
-          <WeatherEngine location="vancouver, ca" />
+          <WeatherEngine location="vancouver" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="hungary, hu" />
+          <WeatherEngine location="hungary" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="germany, de" />
+          <WeatherEngine location="germany" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="finland, fi" />
+          <WeatherEngine location="finland" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="sydney, au" />
+          <WeatherEngine location="sydney" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="beijing, zh_cn" />
+          <WeatherEngine location="beijing" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="tokyo, " />
+          <WeatherEngine location="tokyo" />
         </div>
         <div className="grid-item">
-          <WeatherEngine location="mali, " />
+          <WeatherEngine location="mali" />
         </div>
       </div>
       <Display />
