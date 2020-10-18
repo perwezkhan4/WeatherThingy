@@ -49,7 +49,7 @@ const Icon = (props) => {
       break;
   }
 
-  return <Icon src={icon} alt="Weather Icon" />;
+  return <Icon src={icon} alt="" />;
 };
 
 export default Icon;
